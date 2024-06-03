@@ -42,7 +42,7 @@ function App() {
   }, [coords]);
 
   return (
-    <div className="app">
+    <div className="app" style={{backgroundImage:'url("./background.jpeg")'}}>
       {isLoading ? (
         <img src="./loading.gif" className="app_loader"></img>
       ) : (
